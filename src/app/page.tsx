@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div className="m-5 p20 flex inline-table">
+    <div className="m-5 flex inline-table">
       <h1 className="text-3xl text-sky-50">
         Moffu
       </h1> 
