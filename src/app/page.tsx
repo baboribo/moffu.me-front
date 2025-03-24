@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Home() {
   return (
     <div className="m-5 flex inline-table">
@@ -5,8 +7,9 @@ export default function Home() {
         Moffu
       </h1> 
       <p className="text-base text-sky-200">
-        사이트 어떻게 만들지 생각하는 중..!
+        아직이에요.
       </p>
+      <Link href="/blog" className="text-blue-400 underline">블로그</Link>
     </div>
   );
 }
