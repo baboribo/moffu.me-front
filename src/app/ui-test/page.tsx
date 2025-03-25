@@ -1,6 +1,6 @@
 import Link from 'next/link' // 필수
 
-export default function About() {
+export default function UiTest() {
     return (
       <div className="m-5 flex inline-table">
         <Link href="/" className="text-base text-sky-200">뒤로가기</Link>
