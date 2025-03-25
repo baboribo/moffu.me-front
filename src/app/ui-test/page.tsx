@@ -8,7 +8,7 @@ export default function About() {
           유저 인터페이스 테스트
         </h1> 
         <p className="text-base text-sky-200">
-          아직이에요.
+          디자인 시스템을 만들기 위해 cva를 첫 경험하고, Tailwindcss를 계속해서 익히고, React와 JS와 TS를 더 배우고 있어요.<br></br>아직 콘텐츠가 없어요.
         </p>
       </div>
     );
