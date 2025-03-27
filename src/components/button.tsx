@@ -8,7 +8,7 @@ export default function Button({
   href,
 }: {
   children: React.ReactNode
-  variant?: 'primary' | 'secondary'
+  variant?: 'primary' | 'secondary' | 'ghost'
   size?: 'sm' | 'lg'
   href?: string
 }) {

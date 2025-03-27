@@ -3,7 +3,7 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <div className="m-5 flex inline-table">
-      <h1 className="text-3xl text-sky-50">
+      <h1 className="text-4xl text-sky-50">
         Moffu ☁️
       </h1> 
       <p className="text-base text-sky-200">
