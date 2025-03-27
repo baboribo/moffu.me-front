@@ -16,6 +16,9 @@ export default function Home() {
         <Link href='/ui-test'>
           <h4 className='text-xl'>UI 테스트</h4>
         </Link>
+        <Link href='fluffbox'>
+          <h4 className='text-xl'>떨굼상자</h4>
+        </Link>
       </div>
     </div>
   );
