@@ -1,4 +1,3 @@
-import Link from 'next/link' // 필수
 import Button from '@/components/button'
 
 export default function About() {
