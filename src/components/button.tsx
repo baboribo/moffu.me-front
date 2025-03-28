@@ -6,11 +6,13 @@ export default function Button({
   variant,
   size,
   href,
+  onClick,
 }: {
   children: React.ReactNode
   variant?: 'primary' | 'secondary' | 'ghost'
   size?: 'sm' | 'lg'
   href?: string
+  onClick?: () => void
 }) {
   if (href) {
     return (
@@ -21,7 +23,7 @@ export default function Button({
   }
   
   return (
-    <button className={button({ variant, size })}>
+    <button className={button({ variant, size })} onClick={onClick}>
       {children}
     </button>
   )

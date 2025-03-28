@@ -1,7 +1,7 @@
 import { cva } from "class-variance-authority";
 
 export const button = cva(
-  'rounded-md py-1.5 font-medium transition-all',
+  'rounded-md py-1.5 font-medium transition-all cursor-pointer',
   {
     variants: {
         variant: {

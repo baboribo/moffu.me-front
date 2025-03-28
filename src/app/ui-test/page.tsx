@@ -1,6 +1,10 @@
+'use client'
 import Button from '@/components/button'
+import Modal from '@/components/modal'
+import { useState } from 'react';
 
 export default function UiTest() {
+  const [isOpen, setIsOpen] = useState(false)
     return (
       <div>
         <div className="m-5 flex inline-table mb-3">
@@ -18,6 +22,10 @@ export default function UiTest() {
             <Button variant='primary' size='lg' href='/'>버튼</Button>
             <Button variant='secondary' size='lg' href='/'>버튼</Button>
         </div>
+        <div className="flex gap-2 mx-5">
+            <Button variant='primary' size='lg' onClick={() => setIsOpen(true)}>모달 열기</Button>
+        </div>
+        {isOpen && <Modal onClose={() => setIsOpen(false)} />}
       </div>
     );
   }
