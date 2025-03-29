@@ -1,5 +1,5 @@
 import Button from '@/components/button'
-import OvershootOut from '@/components/OvershootOut'
+import OvershootOut from '@/components/motion/OvershootOut'
 
 export default function About() {
     return (

@@ -1,5 +1,5 @@
 'use client'
-import OvershootOut from '@/components/OvershootOut'
+import OvershootOut from '@/components/motion/OvershootOut'
 import Button from '@/components/button'
 import Modal from '@/components/modal'
 import { useState } from 'react';

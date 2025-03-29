@@ -1,4 +1,4 @@
-import OvershootOut from '@/components/OvershootOut';
+import OvershootOut from '@/components/motion/OvershootOut';
 
 export default function Home() {
   return (
