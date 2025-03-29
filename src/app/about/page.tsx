@@ -19,6 +19,7 @@ export default function About() {
             </div>
             <div className='flex gap-2 mx-5'>
               <Button variant='primary' size='lg' href='https://github.com/Urooyo/moffu.me-front'>Github 프로젝트 보기</Button>
+              <Button variant='secondary' size='lg' href='https://github.com/Urooyo/moffu.me-front/commits/main/'>커밋 기록 보기</Button>
             </div>
           </div>
         </OvershootOut>
