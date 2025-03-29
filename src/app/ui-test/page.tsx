@@ -1,4 +1,5 @@
 'use client'
+import OvershootOut from '@/components/OvershootOut'
 import Button from '@/components/button'
 import Modal from '@/components/modal'
 import { useState } from 'react';
@@ -6,7 +7,7 @@ import { useState } from 'react';
 export default function UiTest() {
   const [isOpen, setIsOpen] = useState(false)
     return (
-      <div>
+      <OvershootOut>
         <div className="m-5 flex inline-table mb-3">
         {/* <Link href="/" className="text-base text-sky-200">뒤로가기</Link> */}
         <Button variant='ghost' href='/'>뒤로가기</Button>
@@ -26,7 +27,7 @@ export default function UiTest() {
             <Button variant='primary' size='lg' onClick={() => setIsOpen(true)}>모달 열기</Button>
         </div>
         {isOpen && <Modal onClose={() => setIsOpen(false)} />}
-      </div>
+      </OvershootOut>
     );
   }
   
