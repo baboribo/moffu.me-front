@@ -1,15 +1,15 @@
 import data from '@/lib/datas/fluffbox.json'
 import Button from '@/components/button'
 import OvershootOut from '@/components/OvershootOut'
+import Nav from '@/components/nav';
 
 export default function About() {
     return (
-
       <div>
         <OvershootOut>
-          <div className="m-5 flex inline-table mb-3">
+          <div className="m-5 flex inline-table mb-3 pt-12">
           {/* <Link href="/" className="text-base text-sky-200">뒤로가기</Link> */}
-          <Button variant='ghost' href='/'>뒤로가기</Button>
+          {/* <Button variant='ghost' href='/'>뒤로가기</Button> */}
           <h1 className="text-4xl text-sky-50">
             떨굼상자
           </h1> 
