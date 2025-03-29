@@ -2,7 +2,6 @@
 import OvershootOut from '@/components/OvershootOut'
 import Button from '@/components/button'
 import Modal from '@/components/modal'
-import Nav from '@/components/nav';
 import { useState } from 'react';
 
 export default function UiTest() {
