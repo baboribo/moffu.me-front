@@ -22,7 +22,7 @@ export default function Nav(){
                 {/* <Button variant='secondary' size='lg' href='/'>메인</Button> */}
                 <Button variant='ghost' size='lg' href='/about'>소개</Button>
                 <Button variant='ghost' size='lg' href='/ui-test'>UI 테스트</Button>
-                <Button variant='ghost' size='lg' href='/fluffbox'>떨굼상자</Button>
+                <Button variant='ghost' size='lg' href='/box'>떨굼상자</Button>
             </div>
         </div>
     )
