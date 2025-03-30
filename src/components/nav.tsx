@@ -10,7 +10,7 @@ export default function Nav(){
         flex 
         bg-slate-900/50
         backdrop-blur-sm 
-        p-3 
+        p-2
         pl-6 
         justify-center 
         items-center 
@@ -18,12 +18,11 @@ export default function Nav(){
         rounded-xl 
         z-50">
             <Link href='/' className="absolute left-6 text-2xl">☁️ Moffu</Link>
-            <div className="flex gap-0 bg-slate-800 rounded-xl overflow-hidden
- border-1 border-slate-600 hover:border-sky-200 transition-all">
+            <div className="flex gap-0 rounded-4xl overflow-hidden transition-all">
                 {/* <Button variant='secondary' size='lg' href='/'>메인</Button> */}
-                <Button variant='secondary' size='lg' href='/about'>소개</Button>
-                <Button variant='secondary' size='lg' href='/ui-test'>UI 테스트</Button>
-                <Button variant='secondary' size='lg' href='/fluffbox'>떨굼상자</Button>
+                <Button variant='ghost' size='lg' href='/about'>소개</Button>
+                <Button variant='ghost' size='lg' href='/ui-test'>UI 테스트</Button>
+                <Button variant='ghost' size='lg' href='/fluffbox'>떨굼상자</Button>
             </div>
         </div>
     )

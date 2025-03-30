@@ -24,7 +24,5 @@ export default function About() {
           </div>
         </OvershootOut>
       </div>
-
-
     );
   }

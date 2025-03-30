@@ -13,8 +13,6 @@ export default function Home() {
           </p>
         </div>
       </OvershootOut>
-
     </div>
-
   );
 }
