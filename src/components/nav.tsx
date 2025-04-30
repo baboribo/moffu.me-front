@@ -21,7 +21,7 @@ export default function Nav(){
             <div className="flex gap-0 rounded-4xl overflow-hidden transition-all">
                 {/* <Button variant='secondary' size='lg' href='/'>메인</Button> */}
                 <Button variant='ghost' size='lg' href='/about'>소개</Button>
-                <Button variant='ghost' size='lg' href='/ui-test'>UI 테스트</Button>
+                <Button variant='ghost' size='lg' href='/blog'>작은 블로그</Button>
                 <Button variant='ghost' size='lg' href='/box'>떨굼상자</Button>
             </div>
         </div>

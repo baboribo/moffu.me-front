@@ -9,7 +9,7 @@ export default function UiTest() {
     return (
       <div>
         <OvershootOut>
-          <div className="flex flex-col gap-1 w-full items-center mb-3 pt-22 pb-10 bg-slate-950">
+          <div className="flex flex-col gap-1 w-full items-center mb-3 pt-22 pb-10 bg-slate-950 rounded-3xl">
             {/* <Link href="/" className="text-base text-sky-200">뒤로가기</Link> */}
             {/* <Button variant='ghost' href='/'>뒤로가기</Button> */}
             <h1 className="text-4xl text-sky-50 text-center">
