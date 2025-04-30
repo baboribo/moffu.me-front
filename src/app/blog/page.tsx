@@ -9,7 +9,7 @@ export default async function BlogPage() {
 
   return (
     <div className="p-8 max-w-3xl mx-auto space-y-6 pt-20">
-      <h1 className="text-white text-3xl font-bold">블로그</h1>
+      <h1 className="text-white text-3xl font-bold">나의 작은 기록장</h1>
       {posts.map((post: Any, index: number) => (
         <div key={`${post.id}-${index}`} className="border-b pb-4">
           <h2 className="text-white text-xl font-semibold">
