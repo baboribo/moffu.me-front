@@ -17,9 +17,9 @@ export default function Nav(){
         overflow-hidden 
         rounded-xl 
         z-50">
-            <Link href='/' className="absolute left-6 text-2xl">☁️ Moffu</Link>
+            <Link href='/' className="absolute left-6 text-2xl text-white">☁️</Link>
             <div className="flex gap-0 rounded-4xl overflow-hidden transition-all">
-                {/* <Button variant='secondary' size='lg' href='/'>메인</Button> */}
+                <Button variant='ghost' size='lg' href='/'>'/'</Button>
                 <Button variant='ghost' size='lg' href='/about'>소개</Button>
                 <Button variant='ghost' size='lg' href='/blog'>작은 블로그</Button>
                 <Button variant='ghost' size='lg' href='/box'>떨굼상자</Button>

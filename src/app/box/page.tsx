@@ -20,10 +20,10 @@ export default function About() {
             <ul className="space-y-4">
               {data.map((item, i) => (
                 <li key={i} className="p-2 rounded-lg">
-                  <h2 className="text-lg">{item.title}</h2>
+                  <h2 className="text-lg text-white">{item.title}</h2>
                   <p className="text-base text-slate-200 mb-2">{item.description}</p>
                   <div className="flex">
-                    <Button variant='secondary' size='lg' href={item.downurl}>다운로드</Button>
+                    <Button variant='secondary' size='sm' href={item.downurl}>다운로드</Button>
                   </div>
                 </li>
               ))}
