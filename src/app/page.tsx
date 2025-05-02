@@ -1,4 +1,3 @@
-import Button from '@/components/button';
 import OvershootOut from '@/components/motion/OvershootOut';
 import Link from 'next/link';
 import linklist from '@/lib/datas/linklist.json'
