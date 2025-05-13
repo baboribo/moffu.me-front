@@ -12,8 +12,8 @@ export default function OvershootOut({
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
-        exit={{ opacity: 0, y: 30 }}
-        transition={{ duration: 0.4, ease: [0.175, 0.885, 0.32, 1.275], delay }}
+        exit={{ opacity: 0, y: 0 }}
+        transition={{ duration: 0.4, ease: [0.175, 0.885, 0.32, 1.275], delay: 0.1 }}
       >
         {children}
       </motion.div>
