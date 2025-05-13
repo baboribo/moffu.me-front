@@ -3,7 +3,6 @@ import { motion } from "motion/react"
 
 export default function Fade({
     children,
-    delay = 0,
   }: {
     children: React.ReactNode
     delay?: number
