@@ -1,6 +1,6 @@
 {
   "name": "moffu.me-front",
-  "version": "0.13.12",
+  "version": "0.16.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
