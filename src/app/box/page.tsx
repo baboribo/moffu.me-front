@@ -1,11 +1,10 @@
 import data from '@/lib/datas/fluffbox.json'
 import Button from '@/components/button'
-import OvershootOut from '@/components/motion/OvershootOut'
 
 export default function About() {
     return (
       <div>
-        <OvershootOut>
+      
           <div className="m-5 flex inline-table mb-3 pt-12">
           {/* <Button variant='ghost' href='/'>뒤로가기</Button> */}
           <h1 className="text-4xl text-sky-50">
@@ -28,7 +27,6 @@ export default function About() {
               ))}
             </ul>
           </div>
-        </OvershootOut>
       </div>
     );
   }

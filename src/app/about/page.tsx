@@ -1,10 +1,8 @@
 import Button from '@/components/button'
-import OvershootOut from '@/components/motion/OvershootOut'
 
 export default function About() {
     return (
       <div>
-        <OvershootOut>
           <div>
             <div className="m-5 flex inline-table mb-3 pt-12">
             {/* <Link href="/" className="text-base text-sky-200">뒤로가기</Link> */}
@@ -22,7 +20,6 @@ export default function About() {
               <Button variant='secondary' size='lg' href='https://github.com/Urooyo/moffu.me-front/commits/main/'>커밋 기록 보기</Button>
             </div>
           </div>
-        </OvershootOut>
       </div>
     );
   }
