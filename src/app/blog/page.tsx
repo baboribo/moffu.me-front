@@ -6,7 +6,6 @@ import { PortableText } from 'next-sanity';
 import { getPosts } from '../../lib/sanity'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
-// import { Separator } from '@/components/ui/separator'
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 import { AlertCircleIcon } from "lucide-react"
 import Link from 'next/link';
@@ -21,7 +20,7 @@ export default async function BlogPage() {
           <AlertCircleIcon />
           <AlertTitle>잠시만요!</AlertTitle>
           <AlertDescription className='flex'>
-            작은 기록장은 <Link href='https://until.blog/@babo'>'언틸 블로그'</Link>로 대체될 예정이에요.
+            작은 기록장은 <Link href="https://until.blog/@babo">언틸 블로그</Link>로 대체될 예정이에요.
           </AlertDescription>
         </Alert>
         <h1 className="text-3xl font-bold tracking-tight mb-2">
