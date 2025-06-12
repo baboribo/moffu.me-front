@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Nav from "@/components/nav";
-import AppWrapper from "@/components/motion/AppWraper";
+// import Nav from "@/components/nav";
+// import AppWrapper from "@/components/motion/AppWraper";
+import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar"
+import { AppSidebar } from "@/components/app-sidebar"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -19,22 +21,18 @@ export const metadata: Metadata = {
   description: "moffu.me",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="ko-kr">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col
- max-w-screen-xl mx-auto`}
-      >
-        <Nav></Nav>
-        <AppWrapper>
-          {children}
-        </AppWrapper>
-      </body>
-    </html>
-  );
+    <SidebarProvider>
+      <html>
+        <body>
+          <AppSidebar />
+          <main>
+            <SidebarTrigger />
+            {children}
+          </main>
+        </body>
+      </html>
+    </SidebarProvider>
+  )
 }

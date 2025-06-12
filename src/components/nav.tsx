@@ -8,8 +8,6 @@ export default function Nav(){
         left-1/2 
         -translate-x-1/2 
         flex 
-        bg-slate-900/50
-        backdrop-blur-sm 
         p-2
         pl-6 
         justify-center 
